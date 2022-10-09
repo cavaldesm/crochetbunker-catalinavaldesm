@@ -5,8 +5,6 @@ import React, { useContext } from 'react';
 import { CartContext } from '../../Context/CartContext';
 
 const Item = ({info}) => {
-    const nombre = useContext(CartContext);
-    console.log('Item: ', nombre);
 
     return (
         <Link to={`/detalle/${info.id}`} className='producto'>
