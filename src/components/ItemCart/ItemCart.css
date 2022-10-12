@@ -1,4 +1,4 @@
-.itemCart{
+.itemCart {
     display: flex;
     border-bottom: 1px solid gray;
     max-width: 500px;
@@ -8,4 +8,27 @@
 .itemCart img{
     width: 200px;
     margin-right: 1rem;
+}
+
+.textCart{
+    margin-bottom: 30px;
+    margin-top: 30px;    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.textCart p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #E6A8D2;
 }

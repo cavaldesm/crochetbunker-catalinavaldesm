@@ -1,6 +1,20 @@
 .container{
-    width: 98%;
+    width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentLink{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contentLink:hover{
+background-color: #E6A8D2;
 }
 
 @media screen and (min-width:768px) {
@@ -25,7 +39,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width:768px){
     .detail_image{
         width: 50%;
     }
@@ -33,4 +47,21 @@
         padding-left: 3rem;
         width: 50%;
     }
+}
+
+.descripcion{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.stock{
+    font-size: 12px;
+    margin-top: 10px;
 }

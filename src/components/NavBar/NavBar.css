@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6A8D2;
+}
+
+li{
+    float: center;
+}
+
+li a{
+    display: flex;
+    flex-direction: column;
+    color: #6064B8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+.StorefrontIcon{
+    display: block;
+    float: right;
+    color: #6064B8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
