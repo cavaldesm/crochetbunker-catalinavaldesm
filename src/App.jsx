@@ -12,8 +12,6 @@ import Header from './components/Header/header';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import ('https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap');
-
 export const CartContext = React.createContext([]);
 console.log('CartContext: ', CartContext);
 
