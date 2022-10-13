@@ -11,12 +11,12 @@
     display: block;
 }
 
-.producto{
+.productos{
     display: inline-block;
     width: 300px;
 }
 
-.producto img{
+.productos img{
     width: 100%;
     height: 100%;
     object-fit:cover;

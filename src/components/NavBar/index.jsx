@@ -5,7 +5,7 @@ import './NavBar.css';
 
 export const NavBar = () => {
     return (
-    <div className="container">
+    <div className="NavBar">
         <nav className="nav">
             <ul className="nav_list">
                 <li>
