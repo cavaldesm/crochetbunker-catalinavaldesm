@@ -9,6 +9,7 @@ import Cart from './components/Cart';
 import CartProvider from './Context/CartContext';
 import Footer from './components/Footer/footer';
 import Header from './components/Header/header';
+import Formulario from './components/Form';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -28,10 +29,14 @@ function App() {
       <Route path='/categoria/:categoriaId' element={<ItemListContainer />} />
       <Route path='/cart' element={<Cart />} />
       <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
+      <Route path='/formulario' element={<Formulario/>} />
         </Routes>
         </CartProvider>
     </BrowserRouter>
 
+<Formulario>
+
+</Formulario>
     <Footer>
     </Footer>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../Context/CartContext";
 import ItemCart from "../ItemCart";
+import Formulario from "../Form";
 import "../Cart/Cart.css";
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 
@@ -46,7 +47,12 @@ const Cart = () => {
         <p className="textCart">Total: ${totalPrice()}</p>   
         </div>
         <div className="itemCart">
-        <button onClick={handleClick}>Emitir compra</button>
+            <div>
+                <Link className="formLink" to='/formulario'>
+                <button onClick={handleClick}>Emitir compra</button>
+                </Link>
+            </div>
+        
         </div>
         </>
     )
