@@ -12,6 +12,7 @@ import Header from './components/Header/header';
 import Formulario from './components/Form';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Exit from './components/Exit';
 
 export const CartContext = React.createContext([]);
 console.log('CartContext: ', CartContext);
@@ -30,13 +31,10 @@ function App() {
       <Route path='/cart' element={<Cart />} />
       <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
       <Route path='/formulario' element={<Formulario/>} />
+      <Route path='/exit' element={<Exit/>} />
         </Routes>
         </CartProvider>
     </BrowserRouter>
-
-<Formulario>
-
-</Formulario>
     <Footer>
     </Footer>
     </>

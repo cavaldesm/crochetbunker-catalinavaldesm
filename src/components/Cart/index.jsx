@@ -52,7 +52,6 @@ const Cart = () => {
                 <button onClick={handleClick}>Emitir compra</button>
                 </Link>
             </div>
-        
         </div>
         </>
     )
