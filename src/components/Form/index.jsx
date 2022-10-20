@@ -26,7 +26,7 @@ const Formulario = () => {
             <h2>Estás a sólo un paso de terminar tu compra...</h2>
             <p>Nombre: {watch('nombre')}</p>
             <p>Dirección: {watch ('direccion')}</p>
-            <p>Email: {watch('email')}</p>
+            <p>Email: {watch ('email')}</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="cartContainer">
                     <label className="textCart">Nombre</label>

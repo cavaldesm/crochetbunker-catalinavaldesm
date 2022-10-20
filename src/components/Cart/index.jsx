@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useCartContext } from "../../Context/CartContext";
 import ItemCart from "../ItemCart";
-import Formulario from "../Form";
 import "../Cart/Cart.css";
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 
@@ -54,10 +53,6 @@ const Cart = () => {
             </div>
         </div>
         </>
-    )
-
-    return (
-        <div>Cart</div>
     )
 }
 
